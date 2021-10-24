@@ -1,4 +1,3 @@
-
 {
   "productos": [
     {
@@ -25,6 +24,16 @@
       "nombre": "Jugo de Fresa",
       "precio": "200",
       "id": 5
+    },
+    {
+      "nombre": "jorianom",
+      "precio": 154451,
+      "id": 6
+    },
+    {
+      "nombre": "jorianom",
+      "precio": 154451,
+      "id": 7
     }
   ]
 }
