@@ -14,3 +14,6 @@ export const EDITAR = "EDITAR";
 export const EDITAR_PRODUCTO = "EDITAR_PRODUCTO";
 export const EDITAR_EXITO = "EDITAR_EXITO";
 export const EDITAR_ERROR = "EDITAR_ERROR";
+
+export const MOSTRAR_ALERTA = "MOSTRAR_ALERTA"
+export const OCULTAR_ALERTA = "OCULTAR_ALERTA"
