@@ -13,10 +13,17 @@ const Productos = () => {
   }, []);
 
   const productos = useSelector((state) => state.productos.productos);
-
+  const loading = useSelector((state) => state.productos.loading);
+  const error = useSelector((state) => state.productos.error);
   return (
     <>
       <h2 className="text-center my-5">Listado de productos</h2>
+      {loading ? <p>Cargando ...</p> : null}
+      {error ? (
+        <p className="font-weight-bold alert alert-danger text-center mt-4">
+          Hubo un error
+        </p>
+      ) : null}
       <table className="table table-striped">
         <thead className="bg-primary table-dark">
           <tr>
