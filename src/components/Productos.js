@@ -10,6 +10,7 @@ const Productos = () => {
   useEffect(() => {
     const obtener = () => dispatch(obtenerProductos());
     obtener();
+    // eslint-disable-next-line
   }, []);
 
   const productos = useSelector((state) => state.productos.productos);
